@@ -14,17 +14,21 @@ Each class is mapped to a different lighting mode. For example, `computer` uses 
 ## Files
 
 ```text
+Demo.pptx
+  Presentation slides for the demo.
+
+report.pdf
+  Final project report.
+
+ei-xiao_final-arduino-1.0.4-impulse-#1.zip
+  Edge Impulse Arduino library containing the trained model.
+
 src/
-  xiao_camera_capture_server.ino   # XIAO camera server used for dataset collection
-  xiao_collect.py                  # Python script for collecting images from XIAO
-  xiao_desk_light_final.ino        # Final Arduino code for inference and light control
+  xiao_camera_capture_server.ino
+    Arduino camera server used for dataset collection.
 
-edge_impulse/
-  ei-xiao_final-arduino-1.0.4-impulse-#1.zip   # Edge Impulse Arduino library
+  xiao_collect.py
+    Python script for collecting images from the XIAO camera server.
 
-slides/
-  Smart_Desk_Lighting_Demo_v2.pptx
-
-report/
-  final_report.pdf
-  final_report.tex
+  xiao_desk_light_final.ino
+    Final Arduino sketch for camera inference and LED light control.
